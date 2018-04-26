@@ -1,0 +1,23 @@
+#Region
+variable "aws_region" {
+  description = "AWS region to launch servers."
+  default     = "us-east-1"
+}
+
+#AWS access key
+variable "aws_access_key" {
+  type    = "string"
+  default = "Super secret key"
+}
+
+#AWS secret Key
+variable "aws_secret_key" {
+  type    = "string"
+  default = "Even more secret key"
+}
+
+#AWS SSHKEYs
+variable "aws_ssh_key" {
+  type    = "string"
+  default = "AWS"
+}
